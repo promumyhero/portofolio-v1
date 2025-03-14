@@ -6,6 +6,32 @@
 * {
   scroll-behavior: smooth;
 }
+/* Width and color for the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #010103; /* Match your dark background */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3A3A49; /* Use your black-500 color */
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #62646C; /* Use your white-500 color */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #3A3A49 #010103;
+}
 
 body {
   background: #010103;

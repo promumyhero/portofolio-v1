@@ -1,3 +1,20 @@
+export const infiniteScroll = [
+  { content: "Text Item 1" },
+  { content: "Paragraph Item 2" },
+  { content: "Text Item 3" },
+  { content: "Paragraph Item 4" },
+  { content: "Text Item 5" },
+  { content: "Paragraph Item 6" },
+  { content: "Text Item 7" },
+  { content: "Paragraph Item 8" },
+  { content: "Text Item 9" },
+  { content: "Paragraph Item 10" },
+  { content: "Text Item 11" },
+  { content: "Paragraph Item 12" },
+  { content: "Text Item 13" },
+  { content: "Paragraph Item 14" },
+];
+
 export const navLinks = [
   {
     id: 1,
@@ -245,7 +262,6 @@ export const myProjects = [
     ],
   },
 ];
-
 
 export const workExperiences = [
   {
