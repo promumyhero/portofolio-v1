@@ -2,7 +2,6 @@ import React from "react";
 import ButtonHero from "../general/ButtonHero";
 import { Globe } from "../magicui/globe";
 import CopyButton from "../general/CopyButton";
-import { IconCloud } from "../magicui/icon-cloud";
 import TechStackCloud from "../general/TechStackCloud";
 
 const About = () => {
@@ -64,7 +63,7 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="assets/grid3.png"
+              src="/assets/grid3.png"
               alt="grid-3"
               className="w-full sm:h-[266px] h-fit object-contain"
             />
