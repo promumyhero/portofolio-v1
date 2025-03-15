@@ -45,7 +45,9 @@ export const clientReviews = [
     position: "Marketing Director at GreenLeaf",
     img: "assets/review1.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Adrian transformed our outdated website into a modern, user-friendly platform. His attention to detail is unmatched.",
+    fullReview:
+      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform that has significantly increased our user engagement metrics. His attention to detail and commitment to quality are unmatched. The way he translated our brand vision into a functional design exceeded our expectations. He communicated clearly throughout the project and delivered on time. Highly recommend him for any web development projects.",
   },
   {
     id: 2,
@@ -53,23 +55,49 @@ export const clientReviews = [
     position: "Founder of TechGear Shop",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Adrian's expertise in web development helped our e-commerce site increase sales by 45%. He's a true professional!",
+    fullReview:
+      "Adrian's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have increased by 45% since the launch. The site's performance and user experience are exceptional, and the custom features he built have given us a competitive edge in our market. He's a true professional who understands both technical requirements and business needs. Fantastic work that continues to pay dividends for our business.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
+    name: "Sarah Chen",
+    position: "CEO at InnovateX",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "We hired Adrian for a complete digital transformation and couldn't be happier with the results.",
+    fullReview:
+      "We hired Adrian for a complete digital transformation of our company's online presence and couldn't be happier with the results. He took the time to understand our complex business model and created an intuitive platform that serves both our B2B and B2C customers effectively. His technical knowledge combined with strategic thinking made him an invaluable partner. The analytics dashboard he built gives us insights we never had before. Adrian exceeded our expectations in every way.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
+    name: "James Wilson",
+    position: "Product Manager at SkyStream",
     img: "assets/review4.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Adrian's ability to translate our complex requirements into elegant code made our project successful.",
+    fullReview:
+      "Adrian's ability to translate our complex requirements into elegant code made our project successful when previous attempts had failed. He has a rare combination of technical expertise and communication skills that made working with him effortless. The application he built handles our data-intensive processes with remarkable efficiency. He also provided excellent documentation and training for our team. I would not hesitate to work with Adrian again on future projects.",
+  },
+  {
+    id: 5,
+    name: "Olivia Martinez",
+    position: "Digital Director at CreativeForge",
+    img: "assets/review5.png",
+    review:
+      "From concept to deployment, Adrian delivered a flawless app that our users love. Truly exceptional work.",
+    fullReview:
+      "From concept to deployment, Adrian delivered a flawless app that our users love. His development process was transparent and collaborative, making it easy for our design team to work alongside him. He implemented complex animations and interactions exactly as we envisioned them, something previous developers struggled with. The app's performance metrics are outstanding, and user feedback has been overwhelmingly positive. Truly exceptional work from a developer who cares about the end product.",
+  },
+  {
+    id: 6,
+    name: "Daniel Kim",
+    position: "CTO at FinTech Solutions",
+    img: "assets/review6.png",
+    review:
+      "Adrian's secure coding practices and attention to performance gave us confidence in our financial platform.",
+    fullReview:
+      "Adrian's secure coding practices and attention to performance gave us complete confidence in our financial platform. Security was our primary concern, and he implemented multiple layers of protection while maintaining excellent user experience. His knowledge of financial compliance requirements saved us countless hours. The platform easily handles thousands of concurrent users with no degradation in performance. Adrian is that rare developer who truly understands mission-critical enterprise applications.",
   },
 ];
 
