@@ -4,6 +4,8 @@ import Hero from "@/components/sections/Hero";
 import Projects from "../components/sections/Projects";
 import Client from "@/components/sections/Client";
 import Contatct from "@/components/sections/Contatct";
+import Footer from "@/components/sections/Footer";
+import Experience from "@/components/sections/Experience";
 
 export default function Home() {
   return (
@@ -13,8 +15,9 @@ export default function Home() {
       <About />
       <Projects />
       <Client />
-
+      <Experience />
       <Contatct />
+      <Footer />
     </main>
   );
 }

@@ -131,8 +131,14 @@ body {
 
   .work-canvas {
     @apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+    @apply flex justify-center items-center overflow-hidden;
+    height: 100%;  /* Match the height of the work-content */
   }
-
+  @media (max-width: 768px) {
+    .work-canvas {
+      height: 350px;
+    }
+  }
   .work-content {
     @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
   }

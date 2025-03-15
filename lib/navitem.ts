@@ -323,3 +323,30 @@ export const workExperiences = [
     animation: "salute",
   },
 ];
+
+export const socialLinks = [
+  {
+    name: "GitHub",
+    url: "https://github.com/promumyhero",
+    icon: "/assets/github.svg",
+    ariaLabel: "Visit my GitHub profile",
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/ridho-hery-winarto-3a1b23219",
+    icon: "/assets/linkedin.svg",
+    ariaLabel: "Connect with me on LinkedIn",
+  },
+  {
+    name: "Medium",
+    url: "https://medium.com/@ridhoherywinarto",
+    icon: "/assets/medium.svg",
+    ariaLabel: "Check out my Medium profile",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/ridhoharryw",
+    icon: "/assets/instagram.svg",
+    ariaLabel: "Follow me on Instagram",
+  },
+];

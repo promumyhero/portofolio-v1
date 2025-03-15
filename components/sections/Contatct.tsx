@@ -5,6 +5,7 @@ import { Input } from "../ui/input";
 import { cn } from "@/lib/utils";
 import { IconMail, IconPhone, IconSend } from "@tabler/icons-react";
 import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -57,14 +58,25 @@ const Contact = () => {
       });
 
       // Show success message
-      alert("Thank you. I will get back to you as soon as possible.");
+      toast.success("Message sent!", {
+        description: "Thank you for reaching out. I'll get back to you soon.",
+        action: {
+          label: "Dismiss",
+          onClick: () => console.log("Dismissed"),
+        },
+      });
     } catch (error) {
       console.error("Error sending email:", error);
-      alert(
-        "An error occurred while sending the email. Please try again later."
-      );
+      toast.error("Failed to send message", {
+        description:
+          "There was an error sending your message. Please try again later.",
+        action: {
+          label: "Try Again",
+          onClick: () => formRef.current?.requestSubmit(),
+        },
+      });
     } finally {
-      setLoading(false); // Always set loading to false when done
+      setLoading(false);
     }
   };
 
