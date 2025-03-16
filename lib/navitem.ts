@@ -28,13 +28,18 @@ export const navLinks = [
   },
   {
     id: 3,
+    name: "Projects",
+    href: "#projects",
+  },
+  {
+    id: 4,
     name: "Work",
     href: "#work",
   },
   {
-    id: 4,
-    name: "Contact",
-    href: "#contact",
+    id: 5,
+    name: "Contact me",
+    href: "#Contact",
   },
 ];
 
@@ -294,33 +299,43 @@ export const myProjects = [
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Rumah Makan Bu Karso",
+    pos: "Business Operations & Development Lead",
+    duration: "January 2024 - January 2025",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      "Led business operations and development initiatives, optimizing service delivery and enhancing customer satisfaction. Improved customer loyalty by 10% through service quality enhancements and menu refinements based on data-driven feedback analysis.",
     icon: "/assets/framer.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "AgroVision",
+    pos: "Product Manager",
+    duration: "August 2023 - March 2024",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
-    animation: "clapping",
+      "Developed an innovative agriculture technology application funded by Google Indonesia, leading project management efforts for streamlined development. Established clear workflows and enhanced team efficiency while ensuring the application met industry standards.",
+    icon: "/assets/framer.svg",
+    animation: "victory",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "Dinas Kesehatan Kota Semarang",
+    pos: "IT Support Specialist",
+    duration: "September 2023 - February 2024",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
+      "Provided technical expertise for healthcare initiatives including TB Prevention, Prolanis, Maternal Health, and Immunization campaigns. Conducted training sessions that improved staff proficiency with digital health solutions.",
+    icon: "/assets/framer.svg",
+    animation: "victory",
+  },
+  {
+    id: 4,
+    name: "Bangkit Academy",
+    pos: "Cloud Computing Specialist",
+    duration: "February 2023 - August 2023",
+    title:
+      "Selected as one of 5,000 cohorts from 67,387 applicants in a career readiness program supported by Google, GoTo, and Traveloka. Developed applications using JavaScript, Express.js, and integrated multiple Google Cloud Platform services.",
+    icon: "/assets/framer.svg",
+    animation: "victory",
   },
 ];
 
@@ -348,5 +363,194 @@ export const socialLinks = [
     url: "https://www.instagram.com/ridhoharryw",
     icon: "/assets/instagram.svg",
     ariaLabel: "Follow me on Instagram",
+  },
+];
+
+export const carouselData = [
+  {
+    category: "Artificial Intelligence",
+    title: "You can do more with AI.",
+    src: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=3556&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    contentData: {
+      title: "Artificial Intelligence Revolution",
+      description:
+        "AI is transforming how we interact with technology. From smart assistants to predictive analytics, the possibilities are endless. Discover how AI can enhance your daily workflow and productivity.",
+      imageUrl: "https://assets.aceternity.com/ai-image.png",
+      contentItems: [
+        {
+          title: "Machine Learning Advances",
+          description:
+            "Recent breakthroughs in machine learning have enabled systems to learn from less data and generalize better to new situations, making AI more accessible than ever.",
+          imageUrl: "https://assets.aceternity.com/machine-learning.png",
+        },
+        {
+          title: "Natural Language Processing",
+          description:
+            "Modern NLP models can understand context, sentiment, and even generate human-like text, revolutionizing how we interact with computers and information systems.",
+          imageUrl: "https://assets.aceternity.com/nlp.png",
+        },
+        {
+          title: "Computer Vision",
+          description:
+            "AI systems can now recognize objects, faces, and scenes with remarkable accuracy, enabling applications from autonomous vehicles to medical diagnostics.",
+          imageUrl: "https://assets.aceternity.com/computer-vision.png",
+        },
+      ],
+    },
+  },
+  {
+    category: "Productivity",
+    title: "Enhance your productivity.",
+    src: "https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    contentData: {
+      title: "Productivity Tools for 2025",
+      description:
+        "Stay ahead of the curve with cutting-edge productivity tools. Organize your tasks, streamline your workflow, and achieve more in less time with our innovative solutions.",
+      imageUrl: "https://assets.aceternity.com/productivity.png",
+      contentItems: [
+        {
+          title: "Task Management",
+          description:
+            "Our intelligent task prioritization system helps you focus on what matters most, automatically organizing your to-dos based on deadlines, importance, and context.",
+          imageUrl: "https://assets.aceternity.com/task-management.png",
+        },
+        {
+          title: "Time Tracking",
+          description:
+            "Gain insights into how you spend your time with automatic tracking and analytics, helping you identify productivity patterns and optimize your schedule.",
+          imageUrl: "https://assets.aceternity.com/time-tracking.png",
+        },
+        {
+          title: "Collaboration Tools",
+          description:
+            "Seamlessly work with your team regardless of location with real-time document editing, video conferencing, and project management in one integrated platform.",
+          imageUrl: "https://assets.aceternity.com/collaboration.png",
+        },
+      ],
+    },
+  },
+  {
+    category: "Product",
+    title: "Launching the new Apple Vision Pro.",
+    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    contentData: {
+      title: "Experience Apple Vision Pro",
+      description:
+        "The future of spatial computing is here. Apple Vision Pro seamlessly blends digital content with your physical space. Explore new dimensions of productivity, entertainment, and connectivity.",
+      imageUrl: "https://assets.aceternity.com/vision-pro.png",
+      contentItems: [
+        {
+          title: "Immersive Display",
+          description:
+            "The ultra-high-resolution micro-OLED display delivers stunning visuals with over 23 million pixels, creating an immersive experience that feels like you're looking through a window.",
+          imageUrl: "https://assets.aceternity.com/vision-display.png",
+        },
+        {
+          title: "Spatial Computing",
+          description:
+            "Interact with digital content as if it's physically present in your space, using intuitive gestures, eye movements, and voice commands for a natural computing experience.",
+          imageUrl: "https://assets.aceternity.com/spatial-computing.png",
+        },
+        {
+          title: "App Ecosystem",
+          description:
+            "Experience your favorite apps in a whole new dimension, with spatial interfaces that transform how you work, play, and connect with others.",
+          imageUrl: "https://assets.aceternity.com/vision-apps.png",
+        },
+      ],
+    },
+  },
+  {
+    category: "Product",
+    title: "Maps for your iPhone 15 Pro Max.",
+    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    contentData: {
+      title: "Navigate with Confidence",
+      description:
+        "Discover enhanced mapping capabilities on your iPhone 15 Pro Max. With improved accuracy, real-time traffic updates, and immersive 3D views, finding your way has never been easier.",
+      imageUrl: "https://assets.aceternity.com/maps.png",
+      contentItems: [
+        {
+          title: "Detailed City Experience",
+          description:
+            "Explore cities in unprecedented detail with photorealistic 3D models of buildings, landmarks, and terrain that make navigation intuitive and visually stunning.",
+          imageUrl: "https://assets.aceternity.com/city-maps.png",
+        },
+        {
+          title: "Offline Navigation",
+          description:
+            "Download maps for entire regions and navigate confidently even without an internet connection, with turn-by-turn directions and points of interest always available.",
+          imageUrl: "https://assets.aceternity.com/offline-maps.png",
+        },
+        {
+          title: "Augmented Reality Directions",
+          description:
+            "Simply raise your phone to see directions overlaid on the real world through your camera, making it easy to identify exactly where to go at complex intersections.",
+          imageUrl: "https://assets.aceternity.com/ar-maps.png",
+        },
+      ],
+    },
+  },
+  {
+    category: "iOS",
+    title: "Photography just got better.",
+    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    contentData: {
+      title: "Capture Perfect Moments",
+      description:
+        "Take your photography to the next level with advanced camera features. From computational photography to professional editing tools, unleash your creativity and capture stunning images.",
+      imageUrl: "https://assets.aceternity.com/camera.png",
+      contentItems: [
+        {
+          title: "Pro Camera System",
+          description:
+            "The 48MP main camera with a quad-pixel sensor captures incredible detail in every shot, while the advanced image signal processor optimizes color, contrast, and lighting.",
+          imageUrl: "https://assets.aceternity.com/pro-camera.png",
+        },
+        {
+          title: "Computational Photography",
+          description:
+            "Smart HDR 4 intelligently balances elements within a frame, ensuring faces are well-exposed, shadows retain detail, and colors are vibrant but natural.",
+          imageUrl: "https://assets.aceternity.com/computational-photo.png",
+        },
+        {
+          title: "Advanced Editing Tools",
+          description:
+            "Professional-grade editing tools let you adjust depth of field, apply selective adjustments, and fine-tune every aspect of your photos right on your device.",
+          imageUrl: "https://assets.aceternity.com/photo-editing.png",
+        },
+      ],
+    },
+  },
+  {
+    category: "Hiring",
+    title: "Hiring for a Staff Software Engineer",
+    src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    contentData: {
+      title: "Join Our Engineering Team",
+      description:
+        "We're looking for talented software engineers to help build the next generation of products. Bring your expertise and passion to a collaborative environment where innovation thrives.",
+      imageUrl: "https://assets.aceternity.com/hiring.png",
+      contentItems: [
+        {
+          title: "Challenging Projects",
+          description:
+            "Work on complex technical challenges that push the boundaries of what's possible, from distributed systems to cutting-edge user interfaces.",
+          imageUrl: "https://assets.aceternity.com/projects.png",
+        },
+        {
+          title: "Growth Opportunities",
+          description:
+            "Develop your skills through mentorship, learning resources, and opportunities to lead projects that impact millions of users worldwide.",
+          imageUrl: "https://assets.aceternity.com/growth.png",
+        },
+        {
+          title: "Inclusive Culture",
+          description:
+            "Join a diverse team that values different perspectives and creates an environment where everyone can do their best work and feel they belong.",
+          imageUrl: "https://assets.aceternity.com/culture.png",
+        },
+      ],
+    },
   },
 ];

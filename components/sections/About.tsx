@@ -6,7 +6,7 @@ import TechStackCloud from "../general/TechStackCloud";
 
 const About = () => {
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="about">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
@@ -19,10 +19,12 @@ const About = () => {
              * nanti disi sesuai kebutuhan
              */}
             <div>
-              <p className="grid-headtext">hi, i'm ridho</p>
+              <p className="grid-headtext">Ridho Hery Winarto</p>
               <p className="grid-subtext">
-                dengan pengalaman lebih dari 5 tahun, saya telah menyelesaikan
-                beberapa proyek.
+                Medical Informatics graduate specializing in fullstack
+                development, cloud computing, and product management. I combine
+                healthcare knowledge with technical expertise to develop
+                innovative digital solutions.
               </p>
             </div>
           </div>
@@ -67,13 +69,15 @@ const About = () => {
               alt="grid-3"
               className="w-full sm:h-[266px] h-fit object-contain"
             />
-
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                I love solving problems and building digital solutions that make
+                a difference. With experience in TypeScript, JavaScript,
+                Next.js, and cloud technologies, I've developed applications
+                that serve real-world needs in healthcare and agriculture. I'm
+                constantly learning and exploring new technologies to enhance my
+                skillset.
               </p>
             </div>
           </div>

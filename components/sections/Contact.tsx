@@ -81,7 +81,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20" id="contact">
+    <section className="py-20" id="Contact">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         {/* Modern gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-black-100 via-black-300 to-black-500 opacity-90"></div>
