@@ -1,9 +1,9 @@
 "use client";
-import Image from "next/image";
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 import { clientReviews } from "@/lib/navitem";
+import SplitText from "../reactbits/TextAnimations/SplitText/SplitText";
 
 const Client = () => {
   const [active, setActive] = useState<
@@ -33,8 +33,15 @@ const Client = () => {
 
   return (
     <section className="c-space my-28">
-      <h3 className="head-text">Hear what my clients say about me</h3>
-
+      <SplitText
+        text="Here what my collage and clients say about me"
+        className="text-4xl font-semibold text-center text-white"
+        delay={150}
+        animationFrom={{ opacity: 0, transform: "translate3d(0,50px,0)" }}
+        animationTo={{ opacity: 1, transform: "translate3d(0,0,0)" }}
+        threshold={0.2}
+        rootMargin="-50px"
+      />
       <AnimatePresence>
         {active && typeof active === "object" && (
           <motion.div
@@ -106,7 +113,7 @@ const Client = () => {
 
                 <motion.div
                   layoutId={`review-${active.id}-${id}`}
-                  className="mt-4 text-neutral-600 dark:text-white font-light text-justify max-h-[40vh] overflow-y-auto"
+                  className="mt-4 text-neutral-600 dark:text-white font-light text-justify max-h-[40vh] overflow-y-auto client-review-scrollbar"
                 >
                   {active.fullReview}
                 </motion.div>
@@ -141,7 +148,7 @@ const Client = () => {
                   <img
                     src={client.img}
                     alt={client.name}
-                    className="w-12 h-12 rounded-full mt-1 mr-1"
+                    className="w-12 h-12 rounded-full mt-1"
                   />
                 </motion.div>
 

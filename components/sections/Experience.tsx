@@ -12,9 +12,9 @@ const Experience = () => {
           {/* Left side - TiltedCard - Only modify this part */}
           <div className="work-canvas h-full flex items-center justify-center">
             <TiltedCard
-              imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
+              imageSrc="/assets/profile.jpg"
+              altText="Profile Picture"
+              captionText="Profile Picture"
               containerHeight="100%"
               containerWidth="100%"
               imageHeight="100%"
@@ -56,7 +56,7 @@ const Experience = () => {
                       {experience.name}
                     </p>
                     <p className="text-sm mb-5">
-                      {experience.pos} -- <span>{experience.duration}</span>
+                      {experience.pos} | <span>{experience.duration}</span>
                     </p>
                     <p className="group-hover:text-white transition-all ease-in-out duration-500">
                       {experience.title}

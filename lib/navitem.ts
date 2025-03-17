@@ -1,3 +1,7 @@
+/**
+ * Infinite Scroll
+ */
+
 export const infiniteScroll = [
   { content: "Text Item 1" },
   { content: "Paragraph Item 2" },
@@ -15,6 +19,13 @@ export const infiniteScroll = [
   { content: "Paragraph Item 14" },
 ];
 
+/**
+ * akhir dari Infinite Scroll
+ */
+
+/**
+ * Navigation Links
+ */
 export const navLinks = [
   {
     id: 1,
@@ -42,7 +53,13 @@ export const navLinks = [
     href: "#Contact",
   },
 ];
+/**
+ * akhir dari Navigation Links
+ */
 
+/**
+ * Client Reviews
+ */
 export const clientReviews = [
   {
     id: 1,
@@ -106,13 +123,20 @@ export const clientReviews = [
   },
 ];
 
+/**
+ * akhir dari Client Reviews
+ */
+
+/**
+ * My Projects
+ */
 export const myProjects = [
   {
     title: "Podcastr - AI Podcast Platform",
     desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
     subdesc:
       "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    href: "https://wepodcaster.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -145,29 +169,29 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Calenderly - Smarter Scheduling, Seamless Appointments",
+    desc: "Calenderly is an intelligent scheduling tool designed to simplify the way you book meetings, events, and appointments. With an intuitive interface and robust automation, it eliminates scheduling conflicts and streamlines your workflow.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+      "Empower your productivity with Calenderly—an all-in-one solution that integrates seamlessly with your favorite calendars, ensuring effortless coordination across teams and time zones. Built with Next.js, TailwindCSS, and Nylas for top-tier security and performance.",
+    href: "https://calenderly-eight.vercel.app",
+    texture: "/textures/project/calenderly.mp4",
+    logo: "/assets/calendar.svg",
     logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+      backgroundColor: "#1E293B",
+      border: "0.2px solid #334155",
+      boxShadow: "0px 0px 60px 0px #4F46E5",
     },
-    spotlight: "/assets/spotlight2.png",
+    spotlight: "/assets/spotlight-calenderly.png",
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Next.js",
+        path: "/icons/nextjs_icon_dark.svg",
       },
       {
         id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/tailwindcss.png",
       },
       {
         id: 3,
@@ -176,8 +200,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Supabase",
+        path: "/icons/supabase.svg",
       },
     ],
   },
@@ -186,7 +210,7 @@ export const myProjects = [
     desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
     subdesc:
       "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    href: "https://health-care-together.vercel.app",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -294,7 +318,88 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "Horizon - Online Banking Platform",
+    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    subdesc:
+      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
+    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
+  {
+    title: "Imaginify - AI Photo Manipulation App",
+    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    subdesc:
+      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
+    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/project-logo5.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
 ];
+/**
+ * akhir dari My Projects
+ */
+
+/**
+ * Work Experiences
+ */
 
 export const workExperiences = [
   {
@@ -303,42 +408,48 @@ export const workExperiences = [
     pos: "Business Operations & Development Lead",
     duration: "January 2024 - January 2025",
     title:
-      "Led business operations and development initiatives, optimizing service delivery and enhancing customer satisfaction. Improved customer loyalty by 10% through service quality enhancements and menu refinements based on data-driven feedback analysis.",
-    icon: "/assets/framer.svg",
+      "Led end-to-end business operations, implementing data-driven customer experience improvements that increased loyalty by 10%. Optimized operational processes for cost efficiency, negotiated with suppliers to enhance profitability, and developed comprehensive business documentation for performance assessment.",
+    icon: "/icons/operational.png", // Consider using a restaurant/business operations icon
     animation: "victory",
   },
   {
     id: 2,
-    name: "AgroVision",
-    pos: "Product Manager",
-    duration: "August 2023 - March 2024",
+    name: "Community Service Program (KKN)",
+    pos: "Chairperson",
+    duration: "March 2024",
     title:
-      "Developed an innovative agriculture technology application funded by Google Indonesia, leading project management efforts for streamlined development. Established clear workflows and enhanced team efficiency while ensuring the application met industry standards.",
-    icon: "/assets/framer.svg",
+      "Led multiple community service initiatives in Kelurahan Purwoyoso, developing a health reporting website for Posyandu activities and disease monitoring. Established effective communication channels between stakeholders and applied strategic planning to improve project outcomes and community satisfaction.",
+    icon: "/icons/leader.png", // Consider using a community/leadership icon
     animation: "victory",
   },
   {
     id: 3,
     name: "Dinas Kesehatan Kota Semarang",
-    pos: "IT Support Specialist",
+    pos: "IT Support Specialist (Internship)",
     duration: "September 2023 - February 2024",
     title:
-      "Provided technical expertise for healthcare initiatives including TB Prevention, Prolanis, Maternal Health, and Immunization campaigns. Conducted training sessions that improved staff proficiency with digital health solutions.",
-    icon: "/assets/framer.svg",
+      "Maintained critical digital health infrastructure at Puskesmas Tambakaji supporting TB prevention, chronic disease management, maternal health, and immunization programs. Conducted technical training that improved healthcare staff proficiency with digital systems and enhanced program integration.",
+    icon: "/icons/health.png", // Consider using a healthcare/IT icon
     animation: "victory",
   },
   {
     id: 4,
-    name: "Bangkit Academy",
-    pos: "Cloud Computing Specialist",
-    duration: "February 2023 - August 2023",
+    name: "AgroVision - Bangkit Academy Incubation",
+    pos: "Product Manager",
+    duration: "August 2023 - March 2024",
     title:
-      "Selected as one of 5,000 cohorts from 67,387 applicants in a career readiness program supported by Google, GoTo, and Traveloka. Developed applications using JavaScript, Express.js, and integrated multiple Google Cloud Platform services.",
-    icon: "/assets/framer.svg",
+      "Led development of an agriculture technology application funded by Google Indonesia and the Ministry of Education. Implemented effective project management practices, established clear workflows, and ensured compliance with industry standards for data security and user experience.",
+    icon: "/icons/agriculture.png", // Consider using a product/agriculture tech icon
     animation: "victory",
   },
 ];
+/**
+ * akhir dari Work Experiences
+ */
 
+/**
+ * Social Links
+ */
 export const socialLinks = [
   {
     name: "GitHub",
@@ -365,7 +476,13 @@ export const socialLinks = [
     ariaLabel: "Follow me on Instagram",
   },
 ];
+/**
+ * akhir dari Social Links
+ */
 
+/**
+ * Carousel Data
+ */
 export const carouselData = [
   {
     category: "Healthcare Initiative",
