@@ -46,63 +46,63 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
+    name: "Adi Setiawan",
+    position: "IT Support at Puskesmas Tambakaji, Semarang",
+    img: "/icons/user.png",
     review:
-      "Working with Adrian transformed our outdated website into a modern, user-friendly platform. His attention to detail is unmatched.",
+      "Ridho demonstrated exceptional IT support skills during his internship, significantly improving our digital health services efficiency.",
     fullReview:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform that has significantly increased our user engagement metrics. His attention to detail and commitment to quality are unmatched. The way he translated our brand vision into a functional design exceeded our expectations. He communicated clearly throughout the project and delivered on time. Highly recommend him for any web development projects.",
+      "Ridho demonstrated exceptional IT support skills during his internship at Puskesmas Tambakaji. His technical expertise in maintaining and repairing our electronic devices ensured continuous operation of our digital health tools across multiple programs. What impressed me most was his ability to quickly understand our healthcare workflows and provide tailored IT solutions. His training sessions for our staff greatly improved their digital literacy and confidence in using health information systems. Ridho's contributions to our TB prevention, Prolanis, Maternal Health, and Immunization programs were invaluable, and his work continues to benefit our community health initiatives even after his internship.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
+    name: "Nurul Feni",
+    position: "Fellow Medical Informatics Graduate",
+    img: "/icons/school.png",
     review:
-      "Adrian's expertise in web development helped our e-commerce site increase sales by 45%. He's a true professional!",
+      "Ridho's leadership abilities and technical skills make him an exceptional collaborator who consistently delivers high-quality results.",
     fullReview:
-      "Adrian's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have increased by 45% since the launch. The site's performance and user experience are exceptional, and the custom features he built have given us a competitive edge in our market. He's a true professional who understands both technical requirements and business needs. Fantastic work that continues to pay dividends for our business.",
+      "I've had the privilege of working with Ridho on several academic projects, and his leadership abilities and technical skills never cease to amaze me. He has a unique talent for simplifying complex technical concepts while maintaining a clear vision of the end goal. During our collaborative projects, Ridho consistently demonstrated exceptional problem-solving abilities and a commitment to excellence. His knowledge of both healthcare systems and software development creates a valuable intersection of skills that's rare to find. Beyond his technical capabilities, Ridho's positive attitude and willingness to help others make him an invaluable team member. Any organization would be fortunate to have him on their team.",
   },
   {
     id: 3,
-    name: "Sarah Chen",
-    position: "CEO at InnovateX",
-    img: "assets/review3.png",
+    name: "[Nama Rekan AgroVision]",
+    position: "Developer at AgroVision, Bangkit Academy",
+    img: "assets/tech-professional-icon.png",
     review:
-      "We hired Adrian for a complete digital transformation and couldn't be happier with the results.",
+      "As our Product Manager at AgroVision, Ridho expertly guided our agriculture technology application from concept to successful implementation.",
     fullReview:
-      "We hired Adrian for a complete digital transformation of our company's online presence and couldn't be happier with the results. He took the time to understand our complex business model and created an intuitive platform that serves both our B2B and B2C customers effectively. His technical knowledge combined with strategic thinking made him an invaluable partner. The analytics dashboard he built gives us insights we never had before. Adrian exceeded our expectations in every way.",
+      "As our Product Manager at AgroVision, Ridho expertly guided our agriculture technology application from concept to successful implementation. His strategic approach to project management and clear communication skills were instrumental in meeting our milestones consistently. Ridho has a remarkable ability to translate technical requirements into business value, which helped us secure funding from Google Indonesia and the Ministry of Education and Culture. He fostered a positive team culture that encouraged innovation and accountability, resulting in a high-quality application that genuinely addresses farmers' needs. His deep understanding of both technology and agriculture demonstrated his versatility and commitment to creating impactful solutions. It was a pleasure working with such a dedicated and talented professional.",
   },
   {
     id: 4,
-    name: "James Wilson",
-    position: "Product Manager at SkyStream",
-    img: "assets/review4.png",
+    name: "Jhosua",
+    position: "Member, Medical Informatics Student Association",
+    img: "/icons/user.png",
     review:
-      "Adrian's ability to translate our complex requirements into elegant code made our project successful.",
+      "Under Ridho's leadership, our student association achieved unprecedented growth in membership engagement and project completion.",
     fullReview:
-      "Adrian's ability to translate our complex requirements into elegant code made our project successful when previous attempts had failed. He has a rare combination of technical expertise and communication skills that made working with him effortless. The application he built handles our data-intensive processes with remarkable efficiency. He also provided excellent documentation and training for our team. I would not hesitate to work with Adrian again on future projects.",
+      "Under Ridho's leadership as Chairman, our Medical Informatics Student Association achieved unprecedented growth in membership engagement and project completion. His democratic leadership style created an inclusive environment where every member felt valued and heard. The public speaking workshops he organized significantly boosted our confidence and communication skills, which have proven invaluable in our academic and professional endeavors. Ridho implemented effective time management systems that improved our productivity by 20% and ensured we met our commitments to the university and community. His ability to mentor team members and build accountability transformed our association into a highly respected organization on campus. Ridho's leadership legacy continues to inspire our approach to student governance and professional development.",
   },
   {
     id: 5,
-    name: "Olivia Martinez",
-    position: "Digital Director at CreativeForge",
-    img: "assets/review5.png",
+    name: "Harsono",
+    position: "Professor of Medical Informatics, Widya Husada University",
+    img: "/icons/educations.png",
     review:
-      "From concept to deployment, Adrian delivered a flawless app that our users love. Truly exceptional work.",
+      "Ridho's exceptional academic performance is matched by his innovative approach to solving real-world healthcare challenges through technology.",
     fullReview:
-      "From concept to deployment, Adrian delivered a flawless app that our users love. His development process was transparent and collaborative, making it easy for our design team to work alongside him. He implemented complex animations and interactions exactly as we envisioned them, something previous developers struggled with. The app's performance metrics are outstanding, and user feedback has been overwhelmingly positive. Truly exceptional work from a developer who cares about the end product.",
+      "Ridho consistently demonstrated exceptional academic performance throughout his studies, graduating with an impressive 3.79 GPA. What truly sets him apart, however, is his innovative approach to solving real-world healthcare challenges through technology. His research on the 'Sayang Bunda' application showed remarkable insight into improving maternal health monitoring through digital solutions. Ridho has a rare ability to bridge the gap between technical expertise and healthcare domain knowledge, producing work that is both technically sound and clinically relevant. His leadership qualities were evident in classroom discussions and group projects, where he naturally took initiative while ensuring everyone's contributions were valued. I have no doubt that Ridho will make significant contributions to the field of medical informatics throughout his career.",
   },
   {
     id: 6,
-    name: "Daniel Kim",
-    position: "CTO at FinTech Solutions",
-    img: "assets/review6.png",
+    name: "[Nama Mentor Bangkit]",
+    position: "Mentor at Bangkit Academy 2023",
+    img: "/icons/user.png",
     review:
-      "Adrian's secure coding practices and attention to performance gave us confidence in our financial platform.",
+      "Ridho's selection to the top 20 teams and subsequent incubation program showcases his exceptional talent and dedication to technology innovation.",
     fullReview:
-      "Adrian's secure coding practices and attention to performance gave us complete confidence in our financial platform. Security was our primary concern, and he implemented multiple layers of protection while maintaining excellent user experience. His knowledge of financial compliance requirements saved us countless hours. The platform easily handles thousands of concurrent users with no degradation in performance. Adrian is that rare developer who truly understands mission-critical enterprise applications.",
+      "Ridho's selection to the top 20 teams and subsequent incubation program at Bangkit Academy showcases his exceptional talent and dedication to technology innovation. Throughout the program, he demonstrated a remarkable ability to apply Google Cloud Platform services to create practical, scalable solutions. His leadership as Product Manager for the AgroVision team was instrumental in their success, skillfully guiding technical implementation while maintaining a clear focus on user needs and business objectives. Ridho's comprehensive understanding of both technology and agriculture helped the team develop an application that truly addresses industry challenges. His communication skills and collaborative approach made him stand out among the 5,000 cohorts selected from over 67,000 applicants. Ridho exemplifies the kind of talent that will drive Indonesia's technology sector forward.",
   },
 ];
 
@@ -368,187 +368,159 @@ export const socialLinks = [
 
 export const carouselData = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
-    src: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=3556&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Healthcare Initiative",
+    title: "Student Health Assessment Program",
+    src: "/experience/kebugaran1.jpeg", // Replace with your actual image
     contentData: {
-      title: "Artificial Intelligence Revolution",
+      title: "Comprehensive Health Screening for Students",
       description:
-        "AI is transforming how we interact with technology. From smart assistants to predictive analytics, the possibilities are endless. Discover how AI can enhance your daily workflow and productivity.",
-      imageUrl: "https://assets.aceternity.com/ai-image.png",
+        "Conducted comprehensive health evaluations for students across elementary, middle, and high schools. These regular screenings help identify health concerns early and promote overall wellbeing among growing children and adolescents.",
+      imageUrl: "/experience/kebugaran1.jpeg",
       contentItems: [
         {
-          title: "Machine Learning Advances",
+          title: "Dental Health Screening",
           description:
-            "Recent breakthroughs in machine learning have enabled systems to learn from less data and generalize better to new situations, making AI more accessible than ever.",
-          imageUrl: "https://assets.aceternity.com/machine-learning.png",
+            "Performed dental examinations to detect common issues like cavities and gum disease early. Our assessments helped identify students requiring further dental care, potentially preventing serious oral health problems and promoting good hygiene habits.",
+          imageUrl: "/experience/kebugaran.jpeg", // Add your dental exam image
         },
         {
-          title: "Natural Language Processing",
+          title: "Hearing & Ear Health Evaluation",
           description:
-            "Modern NLP models can understand context, sentiment, and even generate human-like text, revolutionizing how we interact with computers and information systems.",
-          imageUrl: "https://assets.aceternity.com/nlp.png",
+            "Conducted hearing tests and ear examinations to identify auditory issues that might affect learning and social development. Early detection of hearing impairments helps ensure appropriate interventions and supports academic success.",
+          imageUrl: "/experience/teliga.jpeg", // Add your ear exam image
         },
         {
-          title: "Computer Vision",
+          title: "Nail & Personal Hygiene Assessment",
           description:
-            "AI systems can now recognize objects, faces, and scenes with remarkable accuracy, enabling applications from autonomous vehicles to medical diagnostics.",
-          imageUrl: "https://assets.aceternity.com/computer-vision.png",
+            "Evaluated nail health and personal hygiene practices, educating students on proper care to prevent infections and disease transmission. Our program emphasized the importance of hygiene in overall health maintenance and disease prevention.",
+          imageUrl: "/experience/kuku.jpeg", // Add your nail health image
         },
       ],
     },
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
-    src: "https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Public Health",
+    title: "Community Immunization Program",
+    src: "/experience/imunisasi2.jpg", // Replace with your actual image
     contentData: {
-      title: "Productivity Tools for 2025",
+      title: "Collaborative Immunization Initiative",
       description:
-        "Stay ahead of the curve with cutting-edge productivity tools. Organize your tasks, streamline your workflow, and achieve more in less time with our innovative solutions.",
-      imageUrl: "https://assets.aceternity.com/productivity.png",
+        "Implemented a comprehensive immunization program through strategic partnerships with local government officials and PKK (Family Welfare Movement) members. This initiative aimed to increase vaccination coverage and improve community health outcomes across various age groups.",
+      imageUrl: "/experience/imunisasi2.jpg",
       contentItems: [
         {
-          title: "Task Management",
+          title: "Policy Collaboration",
           description:
-            "Our intelligent task prioritization system helps you focus on what matters most, automatically organizing your to-dos based on deadlines, importance, and context.",
-          imageUrl: "https://assets.aceternity.com/task-management.png",
+            "Worked closely with local policymakers to develop and implement effective immunization strategies. Our collaborative approach ensured alignment with national health goals while addressing specific community needs and overcoming local barriers to healthcare access.",
+          imageUrl: "/experience/imunisasidanpkk.jpg", // Add relevant policy meeting image
         },
         {
-          title: "Time Tracking",
+          title: "PKK Partnership",
           description:
-            "Gain insights into how you spend your time with automatic tracking and analytics, helping you identify productivity patterns and optimize your schedule.",
-          imageUrl: "https://assets.aceternity.com/time-tracking.png",
+            "Partnered with PKK members to leverage their community influence and knowledge of local families. These dedicated volunteers helped with outreach, education, and follow-up, significantly improving vaccination compliance rates through trusted community connections.",
+          imageUrl: "/experience/pkk.jpeg", // Add PKK collaboration image
         },
         {
-          title: "Collaboration Tools",
+          title: "Education & Awareness",
           description:
-            "Seamlessly work with your team regardless of location with real-time document editing, video conferencing, and project management in one integrated platform.",
-          imageUrl: "https://assets.aceternity.com/collaboration.png",
+            "Conducted community workshops and information sessions to address vaccine hesitancy and misinformation. By providing accurate, accessible information about vaccine safety and benefits, we improved understanding and increased participation across all demographic groups.",
+          imageUrl: "/experience/sosialisasi.jpg", // Add education session image
         },
       ],
     },
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
-    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Community Service",
+    title: "Community Health Reporting System",
+    src: "/experience/kkn/team.jpg", // Replace with your actual image
     contentData: {
-      title: "Experience Apple Vision Pro",
+      title: "Community Service Program Leadership",
       description:
-        "The future of spatial computing is here. Apple Vision Pro seamlessly blends digital content with your physical space. Explore new dimensions of productivity, entertainment, and connectivity.",
-      imageUrl: "https://assets.aceternity.com/vision-pro.png",
+        "As Chairperson of the Community Service Program (KKN) in Kelurahan Purwoyoso, led multiple community health initiatives while developing a specialized reporting website. This digital platform enabled efficient monitoring and reporting of Posyandu activities, dengue fever cases, and other public health concerns, significantly improving information sharing between community members and health authorities.",
+      imageUrl: "/experience/kkn/team.jpg",
       contentItems: [
         {
-          title: "Immersive Display",
+          title: "Project Leadership & Coordination",
           description:
-            "The ultra-high-resolution micro-OLED display delivers stunning visuals with over 23 million pixels, creating an immersive experience that feels like you're looking through a window.",
-          imageUrl: "https://assets.aceternity.com/vision-display.png",
+            "Coordinated and led multiple community service projects, optimizing the use of resources and time, which resulted in the successful delivery of impactful health initiatives for local residents. Oversaw team activities and logistics, ensuring the efficient execution of community health programs while fostering a supportive team environment.",
+          imageUrl: "/experience/kkn/lurah.jpg", // Add relevant leadership image
         },
         {
-          title: "Spatial Computing",
+          title: "Digital Health Solution Development",
           description:
-            "Interact with digital content as if it's physically present in your space, using intuitive gestures, eye movements, and voice commands for a natural computing experience.",
-          imageUrl: "https://assets.aceternity.com/spatial-computing.png",
+            "Designed and developed a comprehensive community reporting website specifically tailored to monitor and report on Posyandu activities, dengue fever cases, and other public health concerns. This digital solution facilitated accurate and timely information sharing between community health workers, local authorities, and residents.",
+          imageUrl: "/experience/kkn/sosialisasi.jpg", // Add development image
         },
         {
-          title: "App Ecosystem",
+          title: "Strategic Communication & Problem Solving",
           description:
-            "Experience your favorite apps in a whole new dimension, with spatial interfaces that transform how you work, play, and connect with others.",
-          imageUrl: "https://assets.aceternity.com/vision-apps.png",
+            "Established effective communication channels between team members and local residents, significantly enhancing community engagement and collaborative problem-solving. Applied strategic planning and analytical problem-solving skills to meet community health reporting needs, leading to improved project outcomes and increased community satisfaction.",
+          imageUrl: "/experience/kkn/koordinasi.jpg", // Add communication image
         },
       ],
     },
   },
   {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
-    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Research Project",
+    title: "Healthcare Data Analytics",
+    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3", // Data analytics image
     contentData: {
-      title: "Navigate with Confidence",
+      title: "Medical Data Analysis & Visualization",
       description:
-        "Discover enhanced mapping capabilities on your iPhone 15 Pro Max. With improved accuracy, real-time traffic updates, and immersive 3D views, finding your way has never been easier.",
-      imageUrl: "https://assets.aceternity.com/maps.png",
+        "Conducted research on healthcare data analytics, developing innovative visualization tools to interpret complex medical datasets. Applied programming skills to create solutions that enhance clinical decision-making.",
+      imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71", // Data visualization image
       contentItems: [
         {
-          title: "Detailed City Experience",
+          title: "Predictive Analytics Model",
           description:
-            "Explore cities in unprecedented detail with photorealistic 3D models of buildings, landmarks, and terrain that make navigation intuitive and visually stunning.",
-          imageUrl: "https://assets.aceternity.com/city-maps.png",
+            "Developed a machine learning model to predict patient readmission risks using historical health records, achieving 85% accuracy in identifying high-risk patients for preventive interventions.",
+          imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71", // ML model image
         },
         {
-          title: "Offline Navigation",
+          title: "Interactive Dashboard",
           description:
-            "Download maps for entire regions and navigate confidently even without an internet connection, with turn-by-turn directions and points of interest always available.",
-          imageUrl: "https://assets.aceternity.com/offline-maps.png",
+            "Created an interactive web dashboard using TypeScript and React that visualizes complex healthcare metrics, enabling clinicians to quickly identify trends and make data-driven decisions.",
+          imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71", // Dashboard image
         },
         {
-          title: "Augmented Reality Directions",
+          title: "Research Publication",
           description:
-            "Simply raise your phone to see directions overlaid on the real world through your camera, making it easy to identify exactly where to go at complex intersections.",
-          imageUrl: "https://assets.aceternity.com/ar-maps.png",
+            "Co-authored a research paper on the application of data visualization in clinical settings, demonstrating how effective visual representations can improve diagnostic accuracy and treatment planning.",
+          imageUrl:
+            "https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14", // Research paper image
         },
       ],
     },
   },
   {
-    category: "iOS",
-    title: "Photography just got better.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Education & Skills",
+    title: "Medical Informatics Background",
+    src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3", // Generic medical technology image
     contentData: {
-      title: "Capture Perfect Moments",
+      title: "Technical Expertise & Education",
       description:
-        "Take your photography to the next level with advanced camera features. From computational photography to professional editing tools, unleash your creativity and capture stunning images.",
-      imageUrl: "https://assets.aceternity.com/camera.png",
+        "Medical Informatics graduate with a strong technical foundation. Combining healthcare knowledge with programming skills to create innovative solutions for real-world challenges.",
+      imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3", // Generic coding image
       contentItems: [
         {
-          title: "Pro Camera System",
+          title: "Technical Skills",
           description:
-            "The 48MP main camera with a quad-pixel sensor captures incredible detail in every shot, while the advanced image signal processor optimizes color, contrast, and lighting.",
-          imageUrl: "https://assets.aceternity.com/pro-camera.png",
+            "Proficient in TypeScript, JavaScript, Next.js, Redux, HTML/CSS, and database management systems including PostgreSQL and SQL. Experienced with cloud platforms like Google Cloud and AWS.",
+          imageUrl:
+            "https://images.unsplash.com/photo-1498050108023-c5249f4df085", // Generic coding image
         },
         {
-          title: "Computational Photography",
+          title: "Cloud Computing",
           description:
-            "Smart HDR 4 intelligently balances elements within a frame, ensuring faces are well-exposed, shadows retain detail, and colors are vibrant but natural.",
-          imageUrl: "https://assets.aceternity.com/computational-photo.png",
+            "Certified in Google Cloud Platform with practical experience integrating cloud services into healthcare and agricultural applications. Developed applications leveraging various Google Cloud services.",
+          imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8", // Generic cloud computing image
         },
         {
-          title: "Advanced Editing Tools",
+          title: "Healthcare Knowledge",
           description:
-            "Professional-grade editing tools let you adjust depth of field, apply selective adjustments, and fine-tune every aspect of your photos right on your device.",
-          imageUrl: "https://assets.aceternity.com/photo-editing.png",
-        },
-      ],
-    },
-  },
-  {
-    category: "Hiring",
-    title: "Hiring for a Staff Software Engineer",
-    src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    contentData: {
-      title: "Join Our Engineering Team",
-      description:
-        "We're looking for talented software engineers to help build the next generation of products. Bring your expertise and passion to a collaborative environment where innovation thrives.",
-      imageUrl: "https://assets.aceternity.com/hiring.png",
-      contentItems: [
-        {
-          title: "Challenging Projects",
-          description:
-            "Work on complex technical challenges that push the boundaries of what's possible, from distributed systems to cutting-edge user interfaces.",
-          imageUrl: "https://assets.aceternity.com/projects.png",
-        },
-        {
-          title: "Growth Opportunities",
-          description:
-            "Develop your skills through mentorship, learning resources, and opportunities to lead projects that impact millions of users worldwide.",
-          imageUrl: "https://assets.aceternity.com/growth.png",
-        },
-        {
-          title: "Inclusive Culture",
-          description:
-            "Join a diverse team that values different perspectives and creates an environment where everyone can do their best work and feel they belong.",
-          imageUrl: "https://assets.aceternity.com/culture.png",
+            "Strong foundation in healthcare systems and processes. Combines medical domain expertise with technical skills to develop solutions that address real healthcare challenges.",
+          imageUrl:
+            "https://images.unsplash.com/photo-1505751172876-fa1923c5c528", // Generic healthcare image
         },
       ],
     },

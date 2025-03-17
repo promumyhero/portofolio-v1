@@ -50,9 +50,11 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I work remotely across most of the world
+                Open to remote work and new opportunities
               </p>
-              <p className="grid-subtext">I'm based in Indonesia</p>
+              <p className="grid-subtext">
+                Based in Pontianak, Indonesia, but available for relocation
+              </p>
               <ButtonHero
                 name="Contact Me"
                 isBeam
