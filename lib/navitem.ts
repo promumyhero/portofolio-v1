@@ -64,7 +64,7 @@ export const clientReviews = [
   {
     id: 1,
     name: "Adi Setiawan",
-    position: "IT Support at Puskesmas Tambakaji, Semarang",
+    position: "IT Support at Puskesmas Tambakaji",
     img: "/icons/user.png",
     review:
       "Ridho demonstrated exceptional IT support skills during his internship, significantly improving our digital health services efficiency.",
@@ -83,18 +83,18 @@ export const clientReviews = [
   },
   {
     id: 3,
-    name: "[Nama Rekan AgroVision]",
-    position: "Developer at AgroVision, Bangkit Academy",
-    img: "assets/tech-professional-icon.png",
+    name: "Wanda H",
+    position: "Member, Community Service Program Purwoyoso",
+    img: "/icons/community.png",
     review:
-      "As our Product Manager at AgroVision, Ridho expertly guided our agriculture technology application from concept to successful implementation.",
+      "Under Ridho's leadership as Chairperson, our KKN team successfully delivered multiple high-impact community health initiatives while developing innovative digital solutions.",
     fullReview:
-      "As our Product Manager at AgroVision, Ridho expertly guided our agriculture technology application from concept to successful implementation. His strategic approach to project management and clear communication skills were instrumental in meeting our milestones consistently. Ridho has a remarkable ability to translate technical requirements into business value, which helped us secure funding from Google Indonesia and the Ministry of Education and Culture. He fostered a positive team culture that encouraged innovation and accountability, resulting in a high-quality application that genuinely addresses farmers' needs. His deep understanding of both technology and agriculture demonstrated his versatility and commitment to creating impactful solutions. It was a pleasure working with such a dedicated and talented professional.",
+      "Under Ridho's leadership as Chairperson, our KKN team successfully delivered multiple high-impact community health initiatives in Kelurahan Purwoyoso. His exceptional ability to coordinate resources and personnel ensured we completed all our projects on time despite facing numerous logistical challenges. The community reporting website he developed for monitoring Posyandu activities and dengue fever cases significantly improved information flow between health workers and residents. What impressed me most was Ridho's strategic thinking combined with hands-on technical skills – he could both envision the big picture and implement practical solutions. He created an environment where every team member felt valued and motivated to contribute their best work. His effective communication channels between our team and local stakeholders built trust that was essential to our program's success. Working with Ridho taught me valuable lessons about leadership and community engagement that I continue to apply in my professional life.",
   },
   {
     id: 4,
     name: "Jhosua",
-    position: "Member, Medical Informatics Student Association",
+    position: "Member, MISA",
     img: "/icons/user.png",
     review:
       "Under Ridho's leadership, our student association achieved unprecedented growth in membership engagement and project completion.",
@@ -113,7 +113,7 @@ export const clientReviews = [
   },
   {
     id: 6,
-    name: "[Nama Mentor Bangkit]",
+    name: "Megan",
     position: "Mentor at Bangkit Academy 2023",
     img: "/icons/user.png",
     review:
@@ -174,6 +174,7 @@ export const myProjects = [
     subdesc:
       "Empower your productivity with Calenderly—an all-in-one solution that integrates seamlessly with your favorite calendars, ensuring effortless coordination across teams and time zones. Built with Next.js, TailwindCSS, and Nylas for top-tier security and performance.",
     href: "https://calenderly-eight.vercel.app",
+    // ganti sesuai texture / konten
     texture: "/textures/project/calenderly.mp4",
     logo: "/assets/calendar.svg",
     logoStyle: {
@@ -181,6 +182,7 @@ export const myProjects = [
       border: "0.2px solid #334155",
       boxShadow: "0px 0px 60px 0px #4F46E5",
     },
+    // ganti sesuai gambar
     spotlight: "/assets/spotlight-calenderly.png",
     tags: [
       {
@@ -282,29 +284,31 @@ export const myProjects = [
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "Talent Flows - Modern Job Board Platform",
+    desc: "Talent Flows is a comprehensive job board platform designed to streamline the hiring process with features like OAuth authentication, complete onboarding flow, job post creation, and secure Stripe payment integration.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+      "Built with Next.js 15, TailwindCSS, Shadcn UI, and enhanced with Inngest background workflows and Arcjet security. The platform offers full CRUD functionality, job expiration workflows, and a favorites system for an optimal user experience.",
+    href: "https://talent-flows.vercel.app",
+    // ganti sesuai kontent
     texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+    logo: "/icons/talentflow.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
       border: "0.2px solid #252262",
       boxShadow: "0px 0px 60px 0px #635BFF4D",
     },
+    // ganti sesuai gambar
     spotlight: "/assets/spotlight5.png",
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Next.js",
+        path: "/icons/nextjs_icon_dark.svg",
       },
       {
         id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/tailwindcss.png",
       },
       {
         id: 3,
@@ -313,8 +317,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Shadcn UI",
+        path: "/icons/shadcn-ui.svg",
       },
     ],
   },
@@ -356,29 +360,31 @@ export const myProjects = [
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "HealthJob Hub - Professional Health Blog Platform",
+    desc: "HealthJob Hub is a versatile blogging platform focused on healthcare topics and job postings. It enables healthcare professionals to share industry insights, medical advancements, and career opportunities through an intuitive content management system.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+      "Built with modern web technologies, this platform features a clean, responsive design with robust authentication, SEO optimization, and advanced content categorization. Perfect for healthcare organizations, medical professionals, and job seekers in the health industry.",
+    href: "https://blog-ablogger.vercel.app/",
+    // diganti sesuai kontent
+    texture: "/textures/project/project6.mp4",
+    logo: "/icons/healthblog.png",
     logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
+      backgroundColor: "#E6F7FF",
+      border: "0.2px solid #0096CC",
+      boxShadow: "0px 0px 60px 0px #0096CC4D",
     },
+    // butuh perbaikan dan diganti sesuai kebutuhan
     spotlight: "/assets/spotlight5.png",
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Next.js",
+        path: "/icons/nextjs_icon_dark.svg",
       },
       {
         id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        path: "/assets/tailwindcss.png",
       },
       {
         id: 3,
@@ -387,8 +393,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Shadcn UI",
+        path: "/icons/shadcn-ui.svg",
       },
     ],
   },
