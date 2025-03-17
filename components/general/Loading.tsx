@@ -1,10 +1,12 @@
+// components/CanvasLoader.tsx
+"use client";
 import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
   return (
     <Html
-      as="div"
+      as='div'
       center
       style={{
         display: "flex",
@@ -22,7 +24,7 @@ const CanvasLoader = () => {
           marginTop: 40,
         }}
       >
-        {progress !== 0 ? `${progress.toFixed(2)}%` : "Loading..."}
+        {progress.toFixed(2)}%
       </p>
     </Html>
   );

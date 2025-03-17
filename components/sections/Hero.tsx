@@ -19,9 +19,12 @@ const Hero = () => {
           />
         </div>
         <p className="hero_tag text-gray_gradient">
-          Building Products & Brands
+          Building Digital Solutions for Healthcare & Business
         </p>
       </div>
+      {/**
+       * menyesuaikan dengan kebutuhan
+       */}
       <AppleCardsCarouselDemo />
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
         <Link href={"#about"} className="w-full">

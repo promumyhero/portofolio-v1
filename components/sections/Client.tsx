@@ -73,6 +73,9 @@ const Client = () => {
                 maxHeight: "calc(100vh - 2rem)",
               }}
             >
+              {/**
+               * ini bagian halaman detail
+               */}
               <div className="p-5">
                 <div className="flex justify-between items-start">
                   <div className="flex gap-3">
@@ -129,14 +132,16 @@ const Client = () => {
                 ? `${client.review.substring(0, 150)}...`
                 : client.review}
             </motion.div>
-
+            {/**
+             * ini bagian pas belum di click
+             */}
             <div className="client-content">
               <div className="flex gap-3">
                 <motion.div layoutId={`image-${client.id}-${id}`}>
                   <img
                     src={client.img}
                     alt={client.name}
-                    className="w-12 h-12 rounded-full"
+                    className="w-12 h-12 rounded-full mt-1 mr-1"
                   />
                 </motion.div>
 

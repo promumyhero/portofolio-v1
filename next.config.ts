@@ -1,7 +1,21 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["three"],
+  transpilePackages: [
+    "three",
+    "react-three-fiber",
+    "@react-three/drei",
+    "@react-three/rapier",
+  ],
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(glb|gltf)$/,
+      type: "asset/resource",
+    });
+
+    return config;
+  },
+
   images: {
     remotePatterns: [
       {
