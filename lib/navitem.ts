@@ -169,25 +169,23 @@ export const myProjects = [
     ],
   },
   {
-    title: "Calenderly - Smarter Scheduling, Seamless Appointments",
-    desc: "Calenderly is an intelligent scheduling tool designed to simplify the way you book meetings, events, and appointments. With an intuitive interface and robust automation, it eliminates scheduling conflicts and streamlines your workflow.",
+    title: "Guru Indonesia - Platform Manajemen Pendidikan Modern",
+    desc: "Guru Indonesia adalah platform manajemen pendidikan komprehensif untuk guru di Indonesia. Dirancang untuk mempermudah pengelolaan siswa, pelajaran, penilaian, dan rapor dalam satu sistem yang terpadu dan modern.",
     subdesc:
-      "Empower your productivity with Calenderly—an all-in-one solution that integrates seamlessly with your favorite calendars, ensuring effortless coordination across teams and time zones. Built with Next.js, TailwindCSS, and Nylas for top-tier security and performance.",
-    href: "https://calenderly-eight.vercel.app",
-    // ganti sesuai texture / konten
-    texture: "/textures/project/calenderly.mp4",
-    logo: "/assets/calendar.svg",
+      "Tingkatkan efisiensi kerja guru dengan Guru Indonesia—solusi digital lengkap yang menyederhanakan manajemen akademik melalui antarmuka intuitif dan fitur canggih. Dibangun dengan Next.js, Tailwind CSS, dan PostgreSQL untuk performa maksimal dan keamanan data.",
+    href: "https://guru-indonesia.vercel.app",
+    texture: "/textures/project/guruindonesia.mp4",
+    logo: "/assets/guruindonesia.png",
     logoStyle: {
-      backgroundColor: "#1E293B",
+      backgroundColor: "#0F172A",
       border: "0.2px solid #334155",
-      boxShadow: "0px 0px 60px 0px #4F46E5",
+      boxShadow: "0px 0px 60px 0px #10B981",
     },
-    // ganti sesuai gambar
-    spotlight: "/assets/spotlight-calenderly.png",
+    spotlight: "/assets/spotlight2.png",
     tags: [
       {
         id: 1,
-        name: "Next.js",
+        name: "Next.js 15",
         path: "/icons/nextjs_icon_dark.svg",
       },
       {
@@ -202,8 +200,18 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Supabase",
-        path: "/icons/supabase.svg",
+        name: "Prisma ORM",
+        path: "/assets/Prisma_dark.svg",
+      },
+      {
+        id: 5,
+        name: "PostgreSQL",
+        path: "/assets/postgresql.svg",
+      },
+      {
+        id: 6,
+        name: "Shadcn UI",
+        path: "/assets/shadcn-ui_dark.svg",
       },
     ],
   },
@@ -298,82 +306,6 @@ export const myProjects = [
       boxShadow: "0px 0px 60px 0px #635BFF4D",
     },
     // ganti sesuai gambar
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "Next.js",
-        path: "/icons/nextjs_icon_dark.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Shadcn UI",
-        path: "/icons/shadcn-ui.svg",
-      },
-    ],
-  },
-  {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
-    },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "HealthJob Hub - Professional Health Blog Platform",
-    desc: "HealthJob Hub is a versatile blogging platform focused on healthcare topics and job postings. It enables healthcare professionals to share industry insights, medical advancements, and career opportunities through an intuitive content management system.",
-    subdesc:
-      "Built with modern web technologies, this platform features a clean, responsive design with robust authentication, SEO optimization, and advanced content categorization. Perfect for healthcare organizations, medical professionals, and job seekers in the health industry.",
-    href: "https://blog-ablogger.vercel.app/",
-    // diganti sesuai kontent
-    texture: "/textures/project/project6.mp4",
-    logo: "/icons/healthblog.png",
-    logoStyle: {
-      backgroundColor: "#E6F7FF",
-      border: "0.2px solid #0096CC",
-      boxShadow: "0px 0px 60px 0px #0096CC4D",
-    },
-    // butuh perbaikan dan diganti sesuai kebutuhan
     spotlight: "/assets/spotlight5.png",
     tags: [
       {

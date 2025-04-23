@@ -26,6 +26,19 @@ const About = () => {
                 healthcare knowledge with technical expertise to develop
                 innovative digital solutions.
               </p>
+              <div className="mt-4">
+                <a
+                  href="https://drive.google.com/file/d/1PQEvK3kP1ju2HVe9IapL5TGWBAbUwoRe/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ButtonHero
+                    name="Download CV"
+                    isBeam={false}
+                    containerClass="w-full md:w-auto"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
