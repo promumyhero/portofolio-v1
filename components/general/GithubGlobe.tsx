@@ -3,9 +3,25 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
-const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
-  ssr: false,
-});
+// Import the Globe component and wrap it to adapt the props
+const World = dynamic(
+  () =>
+    Promise.resolve((props: { data: any; globeConfig: any }) => {
+      // Convert the props from the format GithubGlobe uses to the format Globe expects
+      const { Globe } = require("../magicui/globe");
+      // Convert globeConfig to the format expected by Globe
+      const config = {
+        ...props.globeConfig,
+        markers: props.data.map((arc: any) => ({
+          location: [arc.startLat, arc.startLng],
+          size: 0.05,
+        })),
+      };
+      
+      return <Globe config={config} />;
+    }),
+  { ssr: false }
+);
 
 export function GithubGlobe() {
   const globeConfig = {

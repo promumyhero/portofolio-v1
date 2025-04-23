@@ -1,5 +1,8 @@
 "use client";
 import { useSprings, animated, SpringConfig } from "@react-spring/web";
+
+// Create a properly typed animated span component
+const AnimatedSpan = animated('span') as unknown as React.FC<React.HTMLAttributes<HTMLSpanElement>>;
 import { useEffect, useRef, useState } from "react";
 
 interface SplitTextProps {
@@ -75,7 +78,7 @@ const SplitText: React.FC<SplitTextProps> = ({
   );
 
   return (
-    <p
+    <div
       ref={ref}
       className={`split-parent overflow-hidden inline ${className}`}
       style={{ textAlign, whiteSpace: "normal", wordWrap: "break-word" }}
@@ -91,13 +94,13 @@ const SplitText: React.FC<SplitTextProps> = ({
               letterIndex;
 
             return (
-              <animated.span
+              <AnimatedSpan
                 key={index}
                 style={springs[index] as unknown as React.CSSProperties}
                 className="inline-block transform transition-opacity will-change-transform"
               >
                 {letter}
-              </animated.span>
+              </AnimatedSpan>
             );
           })}
           <span style={{ display: "inline-block", width: "0.3em" }}>
@@ -105,7 +108,7 @@ const SplitText: React.FC<SplitTextProps> = ({
           </span>
         </span>
       ))}
-    </p>
+    </div>
   );
 };
 
