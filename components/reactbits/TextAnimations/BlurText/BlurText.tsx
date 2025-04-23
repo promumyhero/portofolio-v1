@@ -7,7 +7,8 @@
 import { useRef, useEffect, useState } from "react";
 import { useSprings, animated, SpringValue } from "@react-spring/web";
 
-const AnimatedSpan = animated.span as React.FC<
+// Fix the type error by using a different approach to type the animated span
+const AnimatedSpan = animated('span') as unknown as React.FC<
   React.HTMLAttributes<HTMLSpanElement>
 >;
 

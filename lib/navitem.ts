@@ -298,7 +298,7 @@ export const myProjects = [
       "Built with Next.js 15, TailwindCSS, Shadcn UI, and enhanced with Inngest background workflows and Arcjet security. The platform offers full CRUD functionality, job expiration workflows, and a favorites system for an optimal user experience.",
     href: "https://talent-flows.vercel.app",
     // ganti sesuai kontent
-    texture: "/textures/project/project5.mp4",
+    texture: "/textures/project/talentsflow.mp4",
     logo: "/icons/talentflow.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
