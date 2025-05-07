@@ -330,6 +330,53 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "Menata Organizer - Event Management Platform",
+    desc: "Menata Organizer adalah platform manajemen event terintegrasi yang dirancang khusus untuk Event Organizer (EO) dan Wedding Organizer (WO). Platform ini menyediakan dashboard terpusat untuk mengelola seluruh aspek perencanaan dan pelaksanaan event.",
+    subdesc:
+      "Dibangun dengan Next.js 14, PostgreSQL (Supabase), Clerk Auth, dan Tailwind CSS, Menata Organizer menawarkan pengalaman pengelolaan event yang efisien, kolaboratif, dan mudah diakses bagi para profesional event.",
+    href: "https://menata-organizer.vercel.app",
+    texture: "/textures/project/menataorganizer.mp4",
+    logo: "/assets/menata.svg",
+    logoStyle: {
+      backgroundColor: "#1E293B",
+      border: "0.2px solid #334155",
+      boxShadow: "0px 0px 60px 0px #6366F14D",
+    },
+    spotlight: "/assets/spotlight6.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/icons/nextjs_icon_dark.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Supabase",
+        path: "/icons/supabase.svg",
+      },
+      {
+        id: 5,
+        name: "Shadcn UI",
+        path: "/assets/shadcn-ui_dark.svg",
+      },
+      {
+        id: 6,
+        name: "Clerk Auth",
+        path: "/icons/clerk-dark.svg",
+      },
+    ],
+  },
 ];
 /**
  * akhir dari My Projects
